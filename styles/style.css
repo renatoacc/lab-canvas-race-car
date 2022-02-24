@@ -6,6 +6,7 @@ body {
 .game-intro {
   float: left;
   padding: 0% 10%;
+  align-content: center;
 }
 
 .game-intro p {
@@ -33,6 +34,10 @@ body button {
 }
 
 #game-board {
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0px;
 }
+
+
